@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Downloads/hotel-main/hotel-main/hotel-website"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "EMS",
+		"liveServer.settings.port": 5501
+	}
+}

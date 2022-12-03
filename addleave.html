@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> time sheet entry</title>
+    <link rel="stylesheet" href="addleave.css">
+   </head>
+<body>
+
+    <nav class="navbar">
+        <!-- LOGO -->
+        <div class="logo"><h1><b>EMS</b></h1></div>
+        <!-- NAVIGATION MENU -->
+        <ul class="nav-links">
+          <!-- USING CHECKBOX HACK -->
+         
+          <div class="menu">
+            <li><a href="/"class="anchar">Home</a></li>
+            <li><a href="/" class="anchar">About Us</a></li>
+           
+             <li><a href="/" class="anchar">Change Password</a></li>
+            <li class="services">
+               report
+              <ul class="dropdown">
+                <li><a href="/"class="anchar" >Employee Report </a></li>
+                <li><a href="/" class="anchar">Salary</a></li>
+                <li><a href="/" class="anchar">TimeSheet Report</a></li>          
+              </ul> 
+            </li>
+
+            <li class="services">
+                Add New
+               <ul class="dropdown">
+                <li><a href="/"class="anchar" >Add Employee </a></li>
+                <li><a href="/" class="anchar">Add Salary</a></li>
+                <li><a href="/" class="anchar">Add Salary</a></li>
+                <li><a href="/" class="anchar">Add TimeSheet</a></li>
+                <li><a href="/" class="anchar">Add Leave</a></li>       
+               </ul> 
+             </li>
+ 
+             
+            
+            
+            <li><a href="/" class="anchar">Contact us</a></li>
+            <li><a href="/" class="anchar">Logout</a></li>
+
+
+            
+          </div>
+        </ul>
+      </nav>
+   <br>
+
+
+<center>
+
+  <div class="container">
+    <div class="title">Leave Application Form</div>
+    <div class="content">
+      <form action=" =">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="deatils">Select Employee Code *</span>
+            <select id = "salution" name = "Please Select">
+              <option value = "1">01</option>
+              <option value = "2">02</option>
+              <option value = "3">03</option>
+              <option value = "4">04</option>
+              <option value = "5">05</option>
+              <option value = "6">06</option>
+              <option value = "7">07</option>
+              <option value = "8">08</option>
+              <option value = "9">09</option>
+              <option value = "10">10</option>
+           </select>
+            <!-- <input type="text" placeholder="Enter your name " required> -->
+          </div>
+          <div class="input-box">
+            <span class="deatils">Work Discription*</span>
+          
+          <textarea name="discription" id="textarea" name="textarea" cols="90" rows="10"></textarea>
+          
+            <!-- <input type="text" placeholder="amount" style="width: 650px; height:45px;border-radius:8px" required> -->
+          </div>
+     
+       <div class="input-box">
+        <span class="deatils">From Date *</span>
+        <input type="date"  style="width: 650px; height:45px;border-radius:8px" required>
+      </div>
+
+          <div class="input-box">
+            <span class="deatils">To Date *</span>
+            <input type="date" style="width: 650px; height:45px;border-radius:8px" required>
+          </div>
+          <div class="input-box">
+            <span class="deatils">Leave Status*</span>
+            <select id = "Leave Status" name = "Please Select">
+              <option value = "1">Worker</option>
+              <option value = "2">Fresher</option>
+              <option value = "3">Manager</option>
+              <option value = "4">Finance</option>
+              <option value = "5">Intern</option>
+              
+           </select>
+  </div>
+<div class="button">
+  <input type="submit" value="Apply Leave">
+</div>
+<div class="button1">
+    <input type="submit" value="Reset Form">
+  </div>
+      </form>
+
+    </div>
+  </div>
+</center>
+</body>
+</html>
